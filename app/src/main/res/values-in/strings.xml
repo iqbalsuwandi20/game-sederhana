@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Permainan Sederhana Gunting Kertas Batu</string>
+    <string name="computer">KOMPUTER:</string>
+    <string name="you">ANDA:</string>
+    <string name="result">HASIL:</string>
+    <string name="exit">KELUAR</string>
+</resources>
