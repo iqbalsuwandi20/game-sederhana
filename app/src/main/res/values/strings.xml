@@ -4,4 +4,8 @@
     <string name="you">YOU:</string>
     <string name="result">RESULT:</string>
     <string name="exit">EXIT</string>
+    <string name="setMessage">Are you so sure you want to exit?</string>
+    <string name="yesButton">Yes</string>
+    <string name="noButton">No</string>
+    <string name="setNegativeButton">If you want to exit click this button again</string>
 </resources>

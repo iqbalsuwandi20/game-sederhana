@@ -4,4 +4,8 @@
     <string name="you">ANDA:</string>
     <string name="result">HASIL:</string>
     <string name="exit">KELUAR</string>
+    <string name="setMessage">Apakah Anda begitu yakin ingin keluar?</string>
+    <string name="yesButton">Ya</string>
+    <string name="noButton">Tidak</string>
+    <string name="setNegativeButton">Jika Anda ingin keluar, klik tombol ini lagi</string>
 </resources>

@@ -5,7 +5,8 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
-import android.widget.TextView
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 
 class GameActivity : AppCompatActivity() {
 
@@ -49,5 +50,22 @@ class GameActivity : AppCompatActivity() {
         initComponents()
         initListener()
 
+        exitButton.setOnClickListener {
+            val eBuilder = AlertDialog.Builder(this)
+            eBuilder.setTitle(resources.getString(R.string.exit))
+            eBuilder.setIcon(R.drawable.exit)
+            eBuilder.setMessage(resources.getString(R.string.setMessage))
+            eBuilder.setPositiveButton(resources.getString(R.string.yesButton)) {
+                Dialog, wich ->
+                finish()
+            }
+            eBuilder.setNegativeButton(resources.getString(R.string.noButton)) {
+                Dialog, which ->
+                Toast.makeText(this,resources.getString(R.string.setNegativeButton), Toast.LENGTH_SHORT).show()
+            }
+
+            val createBuild = eBuilder.create()
+            createBuild.show()
+        }
     }
 }
