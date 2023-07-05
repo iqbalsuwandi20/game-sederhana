@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "294035427306",
+    "project_id": "latihan-firebase-ac3a0",
+    "storage_bucket": "latihan-firebase-ac3a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294035427306:android:aaf90021ff85274ccc2c93",
+        "android_client_info": {
+          "package_name": "com.example.rockpaperscissorssimplegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294035427306-nposejopoeceg8f54vk6ac9pqh5a6tkn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rockpaperscissorssimplegame",
+            "certificate_hash": "70d719a5adfa42c70e86953562f404e38202a079"
+          }
+        },
+        {
+          "client_id": "294035427306-jv0ql834hbpsad397mfhbkeliai94isp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0xX_8_kHQM4AtTHlS3ZEbQRDehA_xQ4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294035427306-jv0ql834hbpsad397mfhbkeliai94isp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
